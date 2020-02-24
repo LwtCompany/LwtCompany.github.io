@@ -1,0 +1,246 @@
+*{margin: 0;padding: 0;}
+
+
+body{
+	font-family: '../ttf/WILLS___.TTF';
+	
+}
+
+/*Saytni boshi*/
+/*Sayt blo'klarini markazga tekislash*/
+.sayt{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+}
+
+
+/*Header qismi boshlandi*/
+header{
+
+	
+	width: 100%;
+	display: flex;
+	height: 10vh;
+	background-color: grey;
+	justify-content: space-around;
+	align-items: center;
+	align-content: space-between;
+
+
+}
+
+
+header .links a{
+	text-decoration: none;
+	color: white;
+	font-size: 22px;
+}
+header .links a:hover{
+	opacity: 0.7;
+}
+
+/*Blog1 qismi boshlandi*/
+
+.blog1{
+	clear: both;
+	position: static;
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	align-items: center;
+
+	text-align: center;
+	color: white;
+	font-size: 16px;
+	background-image: url("../img/glavniy.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 120vh;
+
+}
+.rasm1{
+	z-index: 0;
+	
+	background-color: #706c6b;
+	height: 120vh;
+	opacity: 0.5;
+	width: 100%;
+}
+#jon{
+	margin-top: 200px;
+	font-size: 84px;
+	opacity: 1.0;
+	letter-spacing: 10px;
+}
+#jon1{
+	margin-left: 20%;
+	width: 60%;
+	font-size: 18px;
+}
+
+.chiziq1{
+	
+	margin-bottom: 5%;
+	margin-top: 5%;
+	margin-left: 20%;
+	border: 1px solid #389992;
+	width: 60%;
+	height: 1vh;
+	background-color: #389992;
+}
+
+/*Blog2, About qismi boshlandi*/
+.About{
+	
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: column;
+	align-content: center;
+
+	background-image: url("../img/rasm2.JPG");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 140vh;
+	
+
+}
+.rasm2{
+	margin-top: -40px;
+	margin-left: 500pt;
+	z-index: 0;
+	height: 140vh;
+	background-color: #827968;
+	width: 50%;
+	opacity: 0.5;
+
+}
+.rasm2 .markaz img{
+
+margin-left: 120px;	
+}
+.markaz{
+	color: white;
+	display: flex;
+	justify-content: space-around;
+	flex-direction: center;
+}
+.chiziq3{
+	border: 1px solid #389992;
+	width: 400px;
+	height: 1vh;
+	background-color:#389992;
+}
+.chiziq2{
+	border: 1px solid #389992;
+	width: 400px;
+	height: 1vh;
+	background-color:#389992;
+	opacity: 1;
+}
+.focus{
+		margin-top: -700px;
+}
+.focus h2{
+	margin-top: -40px;
+	color: white;
+	font-size: 64px;
+}
+
+#mtn1{
+	margin-top: -50px;
+	font-size: 20px;
+	width: 80%;
+	text-align: center;
+
+}
+.blokcha{
+	margin-top: 110px;
+	margin-left: -150px;
+	text-align: center;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+
+}
+.inblogs{
+	font-size: 20px;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	margin-left: 150px;
+	border: 3px double white;
+	background-color: black;
+	border-radius: 100%;
+	width: 200px;
+	height: 200px;
+	opacity: 0.7;
+
+}
+.inblogs a{
+	color:#389992;
+	text-decoration: none;
+}
+.inblogs a:hover{
+	color: white;
+}
+.inblogs:hover{
+	opacity: 0.9;
+	color: white;
+}
+/*blog3 boshlandi*/
+
+.blog3{
+	
+	background-image: url(../img/hand.JPG);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 180vh;
+
+}
+.past1{
+	align-items: center;
+
+	opacity: 0.4;
+	font-size: 54px;
+	color: #eee;
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+	background-color: black;
+	height: 80vh;
+	width: 100%;
+}
+.past2{
+	
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+	background-color: #666d5b;
+	height: 100vh;
+	width: 100%;	
+	opacity: 0.4;
+}
+.past2 h1{
+	font-size: 45px;
+	
+	word-spacing: 100px; 
+}
+.past2 h1 pre{
+	border-radius: 100px;
+	font-size: 32px;
+	background-color: grey;
+	color: white;
+	
+}
+
+
+
+

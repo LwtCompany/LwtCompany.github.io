@@ -1,0 +1,76 @@
+*{margin: 0; padding: 0;}
+
+@font-face {
+	font-family: 'DroidSerif';
+	src: url(../ttf/DroidSerif-Regular.ttf);
+	font-style: normal;
+	font-weight: 100;
+}
+body{
+	font-family: DroidSerif;
+
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+
+}
+.about{
+	height: 20vh;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+
+	width: 100%;
+	text-align: center;
+	background: linear-gradient(to left, #33ccff 20%, #ff99cc 60%);
+	opacity: 0.9;
+  z-index: 1;
+}
+.about span{
+	font-size: 22px;
+}
+.about .hu1::first-letter{
+	color: pink;
+	font-size: 42px;
+	box-shadow: none;
+}
+.about .hu1{
+
+	text-align: center;
+	display: inline-block;
+	font-style: italic;
+	font-size: 20px;
+	letter-spacing: -2px;
+
+
+	cursor: crosshair;
+	transition-duration: 1s;
+	transition-property: all;
+	transition-delay: 1s;
+}
+.about .hu1:hover{
+	color: white;
+	opacity: 0.7;
+text-shadow: 2px 2px 3px black;
+}
+
+
+.imkonyat{
+	margin-top: 100px;
+	display: flex;
+
+	justify-content: space-around;
+
+
+}
+
+.surat{
+	height: 200px;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
